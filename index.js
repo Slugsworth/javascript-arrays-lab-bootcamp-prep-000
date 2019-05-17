@@ -5,9 +5,13 @@ function destructivelyAppendKitten(){
 }
 
 function destructivelyPrependKitten(){
-  
+ kittens.unshift("Ralph"); 
 }
 
 function destructivelyRemoveLastKitten(){
-  
+  kittens.pop();
+}
+
+function destructivelyRemoveFirstKitten(){
+  kittens.shift();
 }
